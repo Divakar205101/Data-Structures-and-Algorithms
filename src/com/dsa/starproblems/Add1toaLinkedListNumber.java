@@ -3,12 +3,13 @@ package com.dsa.starproblems;
 
 public class Add1toaLinkedListNumber {
 
+	  static int carray = 0;
 	public static void main(String[] args) {
 		SinglieLinkedList list = new SinglieLinkedList();
 		list.add(new Node(9));
 		list.add(new Node(9));
 		list.add(new Node(9));
-		Node addOne = addOne(list.head);
+		Node addOne = optimal(list.head);
 		while(addOne!=null) {
 			System.out.println(addOne.val);
 			addOne = addOne.next;
@@ -55,6 +56,28 @@ public class Add1toaLinkedListNumber {
 			 curr = next;
 		 }
 		 return prev;
+	}
+	
+	public static Node optimal(Node head) {
+		Node temp = head;
+		carray = carray(temp);
+		if(carray==1) {
+			Node newNode=new Node(1);
+			newNode.next=head;
+			return newNode;
+		}
+		return head;
+	}
+	
+	public static int carray(Node head) {
+		if(head==null)
+			return 1;
+		carray = carray(head.next);
+		head.val = head.val+1;
+		if(head.val<10)
+			return 0;
+		head.val = 0;
+		return carray;
 	}
 
 }
