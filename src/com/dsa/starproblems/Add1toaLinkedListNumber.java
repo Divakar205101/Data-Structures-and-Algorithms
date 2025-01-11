@@ -6,8 +6,7 @@ public class Add1toaLinkedListNumber {
 	  static int carray = 0;
 	public static void main(String[] args) {
 		SinglieLinkedList list = new SinglieLinkedList();
-		list.add(new Node(9));
-		list.add(new Node(9));
+		list.add(new Node(1));
 		list.add(new Node(9));
 		Node addOne = optimal(list.head);
 		while(addOne!=null) {
