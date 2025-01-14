@@ -6,8 +6,8 @@ import java.util.Map;
 public class TwoSum {
 
 	public static void main(String[] args) {
-		int[] nums = { 3, 3 };
-		int target = 6;
+		int[] nums = { 1,2,3,4,5,6,7,8,9 };
+		int target = 7;
 		int[] twoSum = twoSum(nums, target);
 		for (int i : twoSum) {
 			System.out.print(i + " ");
