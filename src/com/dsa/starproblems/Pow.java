@@ -1,19 +1,39 @@
 package com.dsa.starproblems;
 
+import java.util.Scanner;
+
 public class Pow {
+	double d = 1;
+
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-       System.out.println(myPow(2.0d,3));
+		Pow pow = new Pow();
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter X value :");
+		double x = scanner.nextDouble();
+		System.out.println("Enter n value :");
+		int n = scanner.nextInt();
+		System.out.println(pow.myPow(x, n));
 	}
 
-	public static double myPow(double x, int n) {
-         return s(x,n,1);
-	}
-	
-	public static double s(double x, int n,double c) {
-		if(n==0)
-			return c*x;
-		s(x,n-1,c);
-		return c;
+	public double myPow(double x, int n) {
+		double t = n;
+		if (t < 0) {
+			t = -1.0 * n;
+		}
+		while (t > 0) {
+			if (t % 2 == 1) {
+				d *= x;
+				t -= 1;
+			} else {
+				x *= x;
+				t = t / 2;
+			}
+		}
+		if (n < 0) {
+			d = (double) 1.0 / d;
+		}
+		return d;
 	}
 
 }
