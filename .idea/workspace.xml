@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5915d7da-4c8d-4783-9fb6-e61be5465191" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GFGProblems.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/starproblems/ReverseStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/GFGProblems/com/dsa/starproblems/ReverseStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/GFGProblems/com/dsa/starproblems/ReverseStack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,32 +28,36 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2rJ761kRVSZHFVKewJdgXZZsfib" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Add1toaLinkedListNumber.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.ReverseStack.executor": "Run",
-    "Application.RunDSA.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/blog/divatech",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Add1toaLinkedListNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KMessedArraySort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunDSA.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/blog/divatech&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ReverseStack">
+}</component>
+  <component name="RunManager" selected="Application.StreamsCh">
     <configuration name="Add1toaLinkedListNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dsa.starproblems.Add1toaLinkedListNumber" />
       <module name="GFGProblems" />
@@ -68,12 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.arrays.BinarySearch" />
+    <configuration name="Imutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.java9.Imutable" />
       <module name="GFGProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.arrays.*" />
+          <option name="PATTERN" value="com.dsa.java9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KMessedArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.starproblems.KMessedArraySort" />
+      <module name="GFGProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.starproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,17 +117,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamsCh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.java9.StreamsCh" />
+      <module name="GFGProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.java9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.RunDSA" />
+      <item itemvalue="Application.Imutable" />
+      <item itemvalue="Application.StreamsCh" />
+      <item itemvalue="Application.KMessedArraySort" />
       <item itemvalue="Application.Add1toaLinkedListNumber" />
-      <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.ReverseStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamsCh" />
+        <item itemvalue="Application.Imutable" />
+        <item itemvalue="Application.KMessedArraySort" />
         <item itemvalue="Application.ReverseStack" />
         <item itemvalue="Application.Add1toaLinkedListNumber" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +166,7 @@
       <updated>1736265145024</updated>
       <workItem from="1739601396794" duration="2489000" />
       <workItem from="1739604136164" duration="35000" />
-      <workItem from="1739613746599" duration="6441000" />
+      <workItem from="1739613746599" duration="7388000" />
     </task>
     <servers />
   </component>
@@ -141,11 +174,38 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
