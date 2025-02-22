@@ -33,62 +33,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Add1toaLinkedListNumber.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.KMessedArraySort.executor": "Run",
-    "Application.ReverseStack.executor": "Run",
-    "Application.RunDSA.executor": "Run",
-    "Application.Sortastack.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/blog/divatech",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Add1toaLinkedListNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenerateAllbinarystrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenerateParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KMessedArraySort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunDSA.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sortastack.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/blog/divatech&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Sortastack">
+}</component>
+  <component name="RunManager" selected="Application.GenerateParentheses">
+    <configuration name="GenerateAllbinarystrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.starproblems.GenerateAllbinarystrings" />
+      <module name="GFGProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.starproblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.starproblems.GenerateParentheses" />
+      <module name="GFGProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.starproblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Imutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dsa.java9.Imutable" />
       <module name="GFGProblems" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dsa.java9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KMessedArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.starproblems.KMessedArraySort" />
-      <module name="GFGProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.starproblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.starproblems.ReverseStack" />
-      <module name="GFGProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.starproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +133,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.RunDSA" />
+      <item itemvalue="Application.GenerateParentheses" />
+      <item itemvalue="Application.GenerateAllbinarystrings" />
       <item itemvalue="Application.Sortastack" />
       <item itemvalue="Application.Imutable" />
       <item itemvalue="Application.StreamsCh" />
-      <item itemvalue="Application.KMessedArraySort" />
-      <item itemvalue="Application.ReverseStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenerateParentheses" />
+        <item itemvalue="Application.GenerateAllbinarystrings" />
         <item itemvalue="Application.Sortastack" />
         <item itemvalue="Application.StreamsCh" />
         <item itemvalue="Application.Imutable" />
-        <item itemvalue="Application.KMessedArraySort" />
-        <item itemvalue="Application.ReverseStack" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +168,11 @@
       <workItem from="1739601396794" duration="2489000" />
       <workItem from="1739604136164" duration="35000" />
       <workItem from="1739613746599" duration="7388000" />
-      <workItem from="1739896570314" duration="3611000" />
+      <workItem from="1739896570314" duration="6195000" />
+      <workItem from="1740068759861" duration="3776000" />
+      <workItem from="1740154922095" duration="4081000" />
+      <workItem from="1740238813204" duration="2945000" />
+      <workItem from="1740245036973" duration="501000" />
     </task>
     <servers />
   </component>
@@ -210,5 +216,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dsa/starproblems/GenerateAllbinarystrings.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dsa/starproblems/GenerateAllbinarystrings.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dsa/starproblems/GenerateParentheses.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
