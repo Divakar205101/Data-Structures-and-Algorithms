@@ -43,6 +43,7 @@
     &quot;Application.ReverseStack.executor&quot;: &quot;Run&quot;,
     &quot;Application.RunDSA.executor&quot;: &quot;Run&quot;,
     &quot;Application.Sortastack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subsets.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -58,7 +59,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GenerateParentheses">
+  <component name="RunManager" selected="Application.Subsets">
     <configuration name="GenerateAllbinarystrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dsa.starproblems.GenerateAllbinarystrings" />
       <module name="GFGProblems" />
@@ -78,19 +79,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dsa.starproblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Imutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.java9.Imutable" />
-      <module name="GFGProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.java9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,21 +119,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.starproblems.Subsets" />
+      <module name="GFGProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.starproblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.RunDSA" />
+      <item itemvalue="Application.Subsets" />
       <item itemvalue="Application.GenerateParentheses" />
       <item itemvalue="Application.GenerateAllbinarystrings" />
       <item itemvalue="Application.Sortastack" />
-      <item itemvalue="Application.Imutable" />
       <item itemvalue="Application.StreamsCh" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.GenerateParentheses" />
         <item itemvalue="Application.GenerateAllbinarystrings" />
         <item itemvalue="Application.Sortastack" />
         <item itemvalue="Application.StreamsCh" />
-        <item itemvalue="Application.Imutable" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +173,8 @@
       <workItem from="1740068759861" duration="3776000" />
       <workItem from="1740154922095" duration="4081000" />
       <workItem from="1740238813204" duration="2945000" />
-      <workItem from="1740245036973" duration="501000" />
+      <workItem from="1740245036973" duration="5040000" />
+      <workItem from="1740587340404" duration="61000" />
     </task>
     <servers />
   </component>
@@ -232,8 +234,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/dsa/starproblems/GenerateParentheses.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="11" />
+          <line>22</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
