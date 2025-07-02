@@ -41,11 +41,13 @@ public class SortColors {
 			 if (nums[mid]==0) {
 				 swap(low,mid,nums); 
 				 mid++;
+                 low++;
 			} else if (nums[mid]==1){
 						mid++;
 			}else {
 				swap(mid,heigh,nums);
 				heigh--;
+                
 			}
 		 }
 	 } 
