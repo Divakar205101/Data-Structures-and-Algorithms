@@ -13,7 +13,7 @@ public class Pow {
 		double x = scanner.nextDouble();
 		System.out.println("Enter n value :");
 		int n = scanner.nextInt();
-		System.out.println(pow.myPow(x, n));
+		System.out.println(pow.optimal(x, n));
 	}
 
 	public double myPow(double x, int n) {
@@ -34,6 +34,35 @@ public class Pow {
 			d = (double) 1.0 / d;
 		}
 		return d;
+	}
+	
+	public double optimal(double x, int n) {
+		
+		double ans =1.0;
+	
+		long nn = n;
+		
+		if(nn<0) nn = -1 * nn;
+		
+		while(nn>0) {
+			
+			if (nn%2==1) {
+				
+				ans*=x;
+				nn-=1;
+				
+			} else {
+				
+				x*=x;
+				
+				nn=nn/2;
+
+			}
+		}
+		
+		if(n<0) ans = (double)1.0/(double)ans;
+		
+		return ans;
 	}
 
 }
